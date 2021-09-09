@@ -82,9 +82,7 @@ responses per dataset, which are divided into a training dataset (50%),
 a validation dataset (10%), and a test dataset (40%). The validation
 dataset is augmented with a much larger number of single-scored
 responses (average 23,000 per item). Detailed information about each
-item is provided in Table 1.
-
-TABLE 1 goes here
+item is provided under "Item Information" below.
 
 In addition to model accuracy compared to human scorers, successful
 respondents to this Challenge will provide documentation of model
@@ -156,26 +154,15 @@ may be one of many criteria used for evaluation
 
 ## Challenge Timeline 
 
-  --------------------------------------------------------------------------------------
-  ** **     **Item**                               **Duration   **Start**   **Finish**
-                                                   (D)**                    
-  --------- -------------------------------------- ------------ ----------- ------------
-  2.1       Challenge posting period               30           20-Sep      20-Oct
-
-  2.2       Request for information webinar                     4-Oct       4-Oct
-
-  **2.3**   **Application deadline \***                                     **20-Oct**
-
-  2.4       Provide dataset                                                 28-Oct
-
-  2.5       Competitors prepare responses\*        30           29-Oct      28-Nov
-
-  **2.6**   **Response deadline**                                           **28 Nov**
-
-  2.7       Select winner                                                   16-Dec
-
-                                                                            
-  --------------------------------------------------------------------------------------
+|** |**Item**|**Duration (D)**|**Start**|**Finish**|
+| :-: | :- | :-: | :-: | :-: |
+|2.1|Challenge posting period|30|20-Sep|20-Oct|
+|2.2|Request for information webinar||4-Oct|4-Oct|
+|**2.3**|**Application deadline \***|||**20-Oct**|
+|2.4|Provide dataset|| |28-Oct|
+|2.5|Competitors prepare responses\*|30|29-Oct|28-Nov|
+|**2.6**|**Response deadline**|||**28 Nov**|
+|2.7|Select winner|||16-Dec|
 
 \*Note: applications will be taken on a rolling basis and dataset access
 will be provided as soon as possible (typically 48 hours after receipt).
@@ -257,39 +244,36 @@ should be documented in the technical report.
 
 ## Training Datasets
 
-+----------------------------+-----------------------------------------+
-| **Component**              | **Items Included**                      |
-+============================+=========================================+
-| Component A: Item-Specific | -   training data set (used for model   |
-| Models                     |     building)                           |
-|                            |                                         |
-|                            | -   cross-validation set (used for      |
-|                            |     internal model evaluation and for   |
-|                            |     posting on the leaderboard)         |
-|                            |                                         |
-|                            | -   test data set (used for making      |
-|                            |     score predictions)                  |
-|                            |                                         |
-|                            | The training and cross-validation sets  |
-|                            | have responses scored by two raters.    |
-|                            | The cross-validation set may be         |
-|                            | supplemented with single scored         |
-|                            | responses. The test data set will have  |
-|                            | text only, no scores. In addition to    |
-|                            | response and score data, item text,     |
-|                            | passage, grading rubric, and additional |
-|                            | relevant information will be provided.  |
-+----------------------------+-----------------------------------------+
-| Component B: Generic       | -   all items from Component A for      |
-| Models                     |     different items (similar in genre   |
-|                            |     and grade)                          |
-|                            |                                         |
-|                            | -   test data set for new items (used   |
-|                            |     for making score predictions)       |
-|                            |                                         |
-|                            | -   optional: additional training data, |
-|                            |     features or models                  |
-+----------------------------+-----------------------------------------+
+|**Component**|**Items Included** |
+| :- | :- |
+|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation and for posting on the leaderboard)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, grading rubric, and additional relevant information will be provided. </p>|
+|Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
+
+## Detailed Item Information
+|Item ID|Gr.|Ge.|For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|2017\_DBA\_DR08\_1715RE2T13\_05|8|||28.11|21166|100|533|107|20207|426|
+|2017\_DBA\_DR08\_1715RE2T13\_06|8|||45.89|20905|206|525|106|19960|420|
+|2017\_DBA\_DR08\_1715RE2T13\_07|8|||47.14|19934|385|495|99|19043|396|
+|2017\_DBA\_DR08\_1715RE2T13\_08|8|||28.28|19669|224|502|101|18989|402|
+|2017\_DBA\_DR08\_1715RE4T05G08\_03|8|||34.59|21197|81|539|108|20307|432|
+|2017\_DBA\_DR08\_1715RE4T05G08\_06|8|||51.29|21170|83|531|106|20214|425|
+|2017\_DBA\_DR08\_1715RE4T05G08\_07|8|||28.80|21088|62|529|106|20135|424|
+|2017\_DBA\_DR08\_1715RE4T05G08\_09|8|||34.87|20869|93|527|105|19920|422|
+|2017\_DBA\_DR08\_1715RE4T08G08\_03|8|||44.20|21380|92|543|109|20403|434|
+|2017\_DBA\_DR08\_1715RE4T08G08\_06|8|||32.82|21309|107|||||
+|2017\_DBA\_DR08\_1715RE4T08G08\_07|8||||||||||
+|2017\_DBA\_DR08\_1715RE4T08G08\_09|8||||||||||
+|2017\_DBA\_DR04\_1715RE1T10\_05|4||||||||||
+|2017\_DBA\_DR04\_1715RE1T10\_07|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T05G04\_03|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T05G04\_06|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T05G04\_07|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T05G04\_09|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T08G04\_03|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T08G04\_06|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T08G04\_07|4||||||||||
+|2017\_DBA\_DR04\_1715RE4T08G04\_09|4||||||||||
 
 ## Evaluation Criteria 
 
@@ -337,31 +321,11 @@ technical reports should include estimates for minimal training sample
 sizes that would place the scoring engine's estimates within two percent
 of the final predicted values.
 
-+------------------+---------------------------------------------------+
-| **Criteria**     | **Responsive submissions will adequately:**       |
-+------------------+---------------------------------------------------+
-| 1\. Transparency | -   Explain the model building process            |
-|                  |                                                   |
-|                  | -   Include descriptions of features used for     |
-|                  |     model building                                |
-|                  |                                                   |
-|                  | -   Include description of algorithm used for     |
-|                  |     model building                                |
-+------------------+---------------------------------------------------+
-| 2\.              | -   Provide feature values and model statistics   |
-| Explainability   |     as appropriate to methods used                |
-|                  |                                                   |
-|                  | -   Provide results from model training and cross |
-|                  |     validation                                    |
-|                  |                                                   |
-|                  | -   Provide validity explanations that consider   |
-|                  |     items and scoring rubrics                     |
-+------------------+---------------------------------------------------+
-| 3\. Fairness     | -   Conducts analysis to ensure that models       |
-|                  |     perform the same for different                |
-|                  |     sub-populations, especially those from        |
-|                  |     historically underserved communities.         |
-+------------------+---------------------------------------------------+
+|**Criteria**|**Responsive submissions will adequately:**|
+| :- | :- |
+|<p></p><p>1.	Transparency</p>|<p>- Explain the model building process</p><p>- Include descriptions of features used for model building </p><p>- Include description of algorithm used for model building</p>|
+|<p></p><p>2. Explainability</p>|<p>- Provide feature values and model statistics as appropriate to methods used </p><p>- Provide results from model training and cross validation</p><p>- Provide validity explanations that consider items and scoring rubrics</p>|
+|<p></p><p>3. Fairness </p>|- Conducts analysis to ensure that models perform the same for different sub-populations, especially those from historically underserved communities. |
 
 ## Key Parameters
 
@@ -645,21 +609,19 @@ to [[automated-scoring-challenge\@ed.gov]{.ul}](mailto:%20challenge@ed.gov).
 
 ED will screen all completed submissions to determine compliance with
 submission criteria and determine eligible winner(s) following the
-process described in Appendix A. .
+process described in Appendix A. 
 
 ## How To Enter
 
 1.  Entrants must submit an application to participate and required
-    signed nondisclosure agreements as a Github pull request to:
-    https://github.com/NAEP-AS-Challenge /applications by the 10/20/2021
-    deadline. NOTE: Applications will be reviewed on a rolling basis
-    starting 9/21/2021.
+    signed nondisclosure agreements as a Github pull request. The documents are available at: https://github.com/NAEP-AS-Challenge/info/ 
+    and must be submitted to https://github.com/NAEP-AS-Challenge/challenge_submissions/ by the 10/20/2021 deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
 
 2.  Once approved, participants will be provided with secure access to
     the dataset and materials for the challenge.
 
 3.  Submissions must be submitted as a Github pull request to:
-    https://github.com/NAEP-AS-Challenge /submissions. All submissions
+    https://github.com/NAEP-AS-Challenge/challenge_submissions/. All submissions
     will be kept confidential. Submissions sould contain both the
     technical report and predicted scores. Submissions must be submitted
     by 11/28/2021 at 5:00 ET.
@@ -720,31 +682,12 @@ C)  The pricing sheet will be reviewed to ensure that it includes both
     fixed and variable costs for an operational deployment of the
     scoring model.
 
-+------------------+---------------------------------------------------+
-| **Criteria**     | **Responsive submissions will adequately:**       |
-+------------------+---------------------------------------------------+
-| 1\. Transparency | -   Explain the model building process            |
-|                  |                                                   |
-|                  | -   Include descriptions of features used for     |
-|                  |     model building                                |
-|                  |                                                   |
-|                  | -   Include description of algorithm used for     |
-|                  |     model building                                |
-+------------------+---------------------------------------------------+
-| 2\.              | -   Provide feature values and model statistics   |
-| Explainability   |     as appropriate to methods used                |
-|                  |                                                   |
-|                  | -   Provide results from model training and cross |
-|                  |     validation                                    |
-|                  |                                                   |
-|                  | -   Provide validity explanations that consider   |
-|                  |     items and scoring rubrics                     |
-+------------------+---------------------------------------------------+
-| 3\. Fairness     | -   Conducts analysis to ensure that models       |
-|                  |     perform the same for different                |
-|                  |     sub-populations, especially those from        |
-|                  |     historically underserved communities.         |
-+------------------+---------------------------------------------------+
+|**Criteria**|**Responsive submissions will adequately:**|
+| :- | :- |
+|<p></p><p>1.	Transparency</p>|<p>- Explain the model building process</p><p>- Include descriptions of features used for model building </p><p>- Include description of algorithm used for model building</p>|
+|<p></p><p>2. Explainability</p>|<p>- Provide feature values and model statistics as appropriate to methods used </p><p>- Provide results from model training and cross validation</p><p>- Provide validity explanations that consider items and scoring rubrics</p>|
+|<p></p><p>3. Fairness </p>|- Conducts analysis to ensure that models perform the same for different sub-populations, especially those from historically underserved communities. |
+
 
 2)  All items will be scored using quadratic weighted kappa, a metric
     which measures the agreement between two ratings. The winner will be
@@ -774,18 +717,7 @@ bottom-right) represent agreement and thus contain zeros. Off-diagonal
 cells contain weights indicating the seriousness of that disagreement.
 Often, cells one off the diagonal are weighted 1, those two off 2, etc.
 
-The equation for quadratic weighed kappa, κ~w~ is:
-
-$$\kappa_{w} = 1 - \frac{\sum_{i = 1}^{k}{\sum_{j = 1}^{k}{w_{\text{ij}}x_{\text{ij}}}}}{\sum_{i = 1}^{k}{\sum_{j = 1}^{k}{w_{\text{ij}}m_{\text{ij}}}}}$$
-
-κ=1−∑i=1k∑j=1kwijxij∑i=1k∑j=1kwijmij
-
-where *k* = number of codes and $w_{\text{ij}}$ wij, $x_{\text{ij}}$xij,
-and $m_{\text{ij}}$mij are elements in the weight, observed, and
-expected matrices, respectively.
-
-(see <https://en.wikipedia.org/wiki/Cohen%27s_kappa> for more
-information on quadratic weighted kappa and how it is derived)
+The equation for quadratic weighed kappa and further information is available at: <https://en.wikipedia.org/wiki/Cohen%27s_kappa>. 
 
 Quadratic weighted kappa typically varies from 0 (random agreement
 between raters) to 1 (complete agreement between raters). In the event
