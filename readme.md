@@ -17,7 +17,7 @@ CHALLENGE DETAILS
 TOTAL CASH PRIZES OFFERED: \$30,000\
 TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 
-SUBMISSION START: 10/20/2021 8:00 AM ET\
+SUBMISSION START: 9/16/2021 8:00 AM ET\
 SUBMISSION END: 11/28/2021 5:00 PM ET
 
 Request for Information Webinar: 10/4/2021 @ 12:00 ET at: [Click here to
@@ -156,7 +156,7 @@ may be one of many criteria used for evaluation
 
 |** |**Item**|**Duration (D)**|**Start**|**Finish**|
 | :-: | :- | :-: | :-: | :-: |
-|2.1|Challenge posting period|30|20-Sep|20-Oct|
+|2.1|Challenge posting period|30|16-Sep|20-Oct|
 |2.2|Request for information webinar||4-Oct|4-Oct|
 |**2.3**|**Application deadline \***|||**20-Oct**|
 |2.4|Provide dataset|| |28-Oct|
@@ -176,7 +176,7 @@ meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmM1NGNhMDQtZmU2
 Questions may also be sent via Github "issues" or via email to
 <automated-scoring-challenge@ies.gov>.
 
-## [[Frequently Asked Questions]{.ul}](https://www.challenge.gov/assets/netlify-uploads/redesign-faqs.pdf)
+## Frequently Asked Questions
 
 *About the National Center for Education Statistics (NCES)*
 
@@ -290,7 +290,7 @@ DS+SS Validation N = Double-Scored + Single Scored Validation N
 
 ## Evaluation Criteria 
 
-**[Part 1: Model Interpretability]{.ul}**. Submissions must provide a
+**Part 1: Model Interpretability**. Submissions must provide a
 technical report that explains the model development process and results
 appropriate to a technical audience with educational measurement
 expertise. It is not expected that competitors will reveal confidential
@@ -301,7 +301,7 @@ scores, but must be approved as providing a sufficient degree of
 interpretability per the criteria below before the response predictions
 will be evaluated.
 
-**[Part 2: Model Accuracy]{.ul}**. Scoring performance will be evaluated
+**Part 2: Model Accuracy**. Scoring performance will be evaluated
 on the average quadratic weighted kappa across all items in the
 competition. Competitors must score at least 99.5% of all scorable
 responses (for which there is a human rating), rounded to the third
@@ -314,7 +314,7 @@ competition will be determined.
 Model interpretability will be evaluated according to three criteria,
 which will be equally weighted in the review:
 
-a)  **Transparency** -- explanation of the ***process*** ***for model
+a)  **Transparency** -- explanation of the ***process for model
     training and testing***, the features extracted from the text, and
     the algorithms used in model building. While these may describe a
     general workflow, they should also include the specific text
@@ -355,8 +355,6 @@ to consider:
     datasets will be released (available at
     [https://github.com/NAEP-AS-Challenge/info](mailto:•%09Data%20will%20be%20provided%20in%20three%20data%20sets:%20a%20training%20data%20set%20(used%20for%20model%20building),%20a%20cross-validation%20set%20(used%20for%20internal%20model%20evaluation%20and%20for%20posting%20on%20the%20leaderboard),%20and%20test%20data%20set%20(used%20for%20making%20score%20predications).%20%20The%20trainin))
 
-## 
-
 ## Deliverables
 
 Valid submissions will include reports with the following items:
@@ -377,7 +375,7 @@ Valid submissions will include reports with the following items:
 ## Challenge Administration Platform 
 
 Most aspects of the Challenge will be administered via Github
-(https://github.com/NAEP-AS-Challenge).\
+(https://github.com/NAEP-AS-Challenge/info).\
 \
 Specifically, this platform will be used for the following purposes:
 
@@ -387,12 +385,8 @@ Specifically, this platform will be used for the following purposes:
 2)  Questions -- all questions about the Challenge, datasets, or items
     should be posted as an "issue" and will be publicly available.
 
-3)  Applications -- to join the Challenge and certify that NCES Security
-    requirements are met applications should be submitted as a "pull
-    request" under "applications" and will be private.
-
-4)  Submissions -- to the Challenge should be submitted as a "pull
-    request" under "submissions" and will be private.
+3)  Submissions -- to the Challenge should be submitted as a "pull
+    request" under "https://github.com/NAEP-AS-Challenge/challenge_submissions" and will be private.
 
 Please note that response data will be provided outside of Github to the
 contact specified on the application.
@@ -426,7 +420,7 @@ required under applicable tax laws.
 ## Terms and Conditions
 
 All entry information submitted
-to [[automated-scoring-challenge\@ed.gov]{.ul}](mailto:%20challenge@ed.gov) and
+to [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) and
 all materials, including any copy of the submission, become property of
 the Department and will not be returned (See "Ownership and Licensing"
 for information about use of these items). Furthermore, the Department
@@ -607,7 +601,7 @@ contact the entrant about Federal Challenge and innovation related
 activities.
 
 Please
-contact [[automated-scoring-challenge\@ed.gov]{.ul}](mailto:%20challenge@ed.gov) should
+contact [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) should
 you have any comments or questions about these Official Rules, Terms,
 and Conditions.
 
@@ -616,7 +610,7 @@ and Conditions.
 *Accessible Format:* Individuals with disabilities can obtain this
 document and a copy of the submission package in an accessible format
 (e.g., braille, large print, audiotape, or compact disc) on request
-to [[automated-scoring-challenge\@ed.gov]{.ul}](mailto:%20challenge@ed.gov).
+to [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov).
 
 ## Review
 
@@ -626,9 +620,9 @@ process described in Appendix A.
 
 ## How To Enter
 
-1.  Entrants must submit an application to participate and required
+1.  Entrants must submit an application to participate through completing the required security authorization forms to access NCES Confidential materials that are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  Completed applications should be sent via email to: 
     signed nondisclosure agreements as a Github pull request. The documents are available at: https://github.com/NAEP-AS-Challenge/info/ 
-    and must be submitted to https://github.com/NAEP-AS-Challenge/challenge_submissions/ by the 10/20/2021 deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
+    and must be submitted to [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the 10/20/2021 @ 5PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
 
 2.  Once approved, participants will be provided with secure access to
     the dataset and materials for the challenge.
@@ -649,7 +643,7 @@ scores as far in advance of the deadline as possible.
 
 Individuals with disabilities who need an accommodation or auxiliary aid
 in connection with the submission process should
-contact [[automated-scoring-challenge\@ed.gov]{.ul}](mailto:%20challenge@ed.gov).
+contact [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov).
 If the Department provides an accommodation or auxiliary aid to an
 individual with a disability in connection with the submission process,
 the entry remains subject to all other requirements and limitations in
