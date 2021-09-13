@@ -118,10 +118,7 @@ and institutions, such as colleges and universities.
 
 -   All participants must confirm that they are able to meet NCES
     Confidential Data security requirements and complete the required
-    documentation (available at
-    https://github.com/NAEP-AS-Challenge/applications) before they will
-    be provided access to the response data, to ensure the
-    confidentiality of student responses.
+    documentation (available [here](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before    they will be provided access to the response data, to ensure the confidentiality of student responses.
 
 -   It is possible, although unlikely, that responses may contain
     information about individual respondents. Individually identifiable
@@ -250,8 +247,8 @@ should be documented in the technical report.
 |Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
 
 ## Detailed Item Information
-|Item ID|Gr.|Ge.|For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
-| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|Item ID|Gr. | For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
 |2017\_DBA\_DR08\_1715RE2T13\_05|8||SCR|28.11|21166|100|533|107|20207|426|
 |2017\_DBA\_DR08\_1715RE2T13\_06|8||SCR|45.89|20905|206|525|106|19960|420|
 |2017\_DBA\_DR08\_1715RE2T13\_07|8||ECR|47.14|19934|385|495|99|19043|396|
@@ -274,18 +271,17 @@ should be documented in the technical report.
 |2017\_DBA\_DR04\_1715RE4T08G04\_06|4||SCR|18.53|27533|329|694|139|26283|556|
 |2017\_DBA\_DR04\_1715RE4T08G04\_07|4||ECR|20.55|25960|667|641|128|24806|513|
 |2017\_DBA\_DR04\_1715RE4T08G04\_09|4||SCR|14.56|23720|597|583|117|22670|467|
-Gr. = Grade						
-Ge. = Genre
-INF = Informational
-LIT = Literary
-For. = Format
-SCR = Short Constructed Response
-ECR = Extended Constructed Response						
-Avg. No. Words =Average Number of Words	
-Miss. = Missing Data
-DS Training N = Double-Scored Training N
-DS Validation N = Double-Scored Validation N
-DS Test N = Double-Scored Test N
+
+Item ID = Item identifier;
+Gr. = Grade; 
+For. = Format; 
+SCR = Short Constructed Response;
+ECR = Extended Constructed Response;						
+Avg. No. Words = Average Number of Words;	
+Miss. = Missing Data;
+DS Training N = Double-Scored Training N;
+DS Validation N = Double-Scored Validation N;
+DS Test N = Double-Scored Test N;
 DS+SS Validation N = Double-Scored + Single Scored Validation N
 
 ## Evaluation Criteria 
@@ -527,8 +523,6 @@ the applicable prize for any reason prior to award, such potential award
 recipient will be disqualified. An alternate award recipient may be
 selected, or the applicable award may go unawarded.
 
-## 
-
 ## Dates/Deadlines
 
 The Department reserves the right to modify any dates or deadlines set
@@ -577,8 +571,6 @@ Conditions shall otherwise remain in effect and shall be construed in
 accordance with their terms as if the invalid or illegal provision were
 not contained herein.
 
-## 
-
 ## Exercise
 
 The failure of the Department to exercise or enforce any right or
@@ -600,8 +592,7 @@ occasionally, the Department may also use the entrant's information to
 contact the entrant about Federal Challenge and innovation related
 activities.
 
-Please
-contact [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) should
+Please contact [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) should
 you have any comments or questions about these Official Rules, Terms,
 and Conditions.
 
