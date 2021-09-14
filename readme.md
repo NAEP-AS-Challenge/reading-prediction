@@ -14,7 +14,7 @@ scoring system into operational use.
 
 CHALLENGE DETAILS
 
-TOTAL CASH PRIZES OFFERED: \$30,000\
+TOTAL CASH PRIZES OFFERED: \$30,000\ (maximum of $20,000 for first-place entries)
 TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 
 SUBMISSION START: 9/16/2021 8:00 AM ET\
