@@ -35,9 +35,8 @@ use of constructed response items. Annually, contractors assemble teams
 of human scorers who score millions of student responses to NAEP's
 assessments. Previous internal research on the application of automated
 scoring to NAEP items indicates that NAEP's items can be scored,
-successfully, with automated scoring using natural langage processing.
-As recently as 2017, in a limited trial of NAEP reading items (JOHN can we verify that Emmanuel used Reading items? I'll try to confirm, today)  automated
-scoring performed as well as human raters in assigning scores, and
+successfully, with automated scoring using natural langage processing. Prior special studies have found that automated
+scoring can perform as well as human raters in assigning scores, and
 assigning a confidence level associated with the predicted score. No
 evidence of biased student scoring based on demographic characteristics
 was observed compared to human raters.
@@ -102,7 +101,6 @@ with the operational processes that the Department intends to use as
 part of the approval process for scoring and reporting; only models that
 can provide substantive validity evidence would be approved for
 production use. This aspect of the Challenge is of critical importance
-for automated scoring solutions to be deployed with confidence and trust
 in educational contexts.
 
 ## 
@@ -344,7 +342,8 @@ to consider:
 
 -   Data sets will be provided in csv format
 
--   All responses have been deemed "scorable" by human raters
+-   All items in the training and test sets have been deemed “scorable” by human raters. There are responses in the validation set that were evaluated as “unscorable” and have no rating associated with them. They should be treated as missing data.
+
 
 -   Teams must complete the required security documentation before
     datasets will be released (available at
@@ -610,9 +609,8 @@ process described in Appendix A.
 
 ## How To Enter
 
-1.  Entrants must submit an application to participate by first completing the required security authorization forms to access NCES Confidential materials. These are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  JOHN - SOMETHING IS WRONG WHT THE FOLLOWING 2 LINES. THE EMAIL ADDRESS IS MISSING AND SOMETHING IS OUT OF ORDER. CAN YOU PLEASE FIX?  Completed applications should be sent via email to: 
-    signed nondisclosure agreements as a Github pull request. The documents are available at: https://github.com/NAEP-AS-Challenge/info/ 
-    and must be submitted to [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the 10/20/2021 @ 5PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
+1.  Entrants must submit an application to participate by first completing the required security authorization forms to access NCES Confidential materials. These are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  Completed applications should be sent via email to: 
+    [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the 10/20/2021 @ 5PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
 
 2.  Once approved, participants will be provided with secure access to
     the dataset and materials for the challenge.
@@ -623,7 +621,7 @@ process described in Appendix A.
     technical report and predicted scores. Submissions must be submitted
     by 11/28/2021 at 5:00 ET.
 
-All entrants are required to provide consent to the Official Rules,
+All entrants consent to the Official Rules,
 Terms, and Conditions upon submitting an entry. Once submitted, a
 submission may not be altered. The Department reserves the right to
 disqualify any submission that the Department deems inappropriate. The
@@ -689,7 +687,7 @@ C)  The pricing sheet will be reviewed to ensure that it includes both
     place (for more information about quadratic weighted kappa, see
     information below). For the purposes of the competition, each item
     is weighted equally. This analysis will be performed separately for
-    the Item-specific model and for the Generic model.
+    the Item-specific models and for the Generic model.
 
     a.  Results shall be numerically ranked from most accurate to least
         accurate, and the top responses will be chosen for prize awards and
@@ -710,15 +708,15 @@ bottom-right) represent agreement and thus contain zeros. Off-diagonal
 cells contain weights indicating the seriousness of that disagreement.
 Often, cells one off the diagonal are weighted 1, those two off 2, etc.
 
-The equation for quadratic weighed kappa and further information is available at: <https://en.wikipedia.org/wiki/Cohen%27s_kappa>. 
-
 Quadratic weighted kappa typically varies from 0 (random agreement
 between raters) to 1 (complete agreement between raters). In the event
 that there is less agreement between the raters than expected by chance,
 the metric may go below 0. The quadratic weighted kappa is calculated
 between the scores which are expected/known and the predicted scores.
 
-Items in the competition have ratings which can range from 0-2 to 0-5.
+Further information about Quadratic Weighted Kappa is available at: <https://en.wikipedia.org/wiki/Cohen%27s_kappa>. 
+
+Items in the competition have ratings which can range from 0-2 to 0-4
 Any assigned score outside the range of the item is considered an
 unscorable response (e.g., condition codes assigned by human raters), is
 treated as missing data, and no prediction should be made for that
