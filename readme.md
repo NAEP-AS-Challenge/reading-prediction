@@ -116,7 +116,7 @@ and institutions, such as colleges and universities.
 
 -   All participants must confirm that they are able to meet NCES
     Confidential Data security requirements and complete the required
-    documentation (available [here](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before they will be provided access to the response data, to ensure the confidentiality of student responses.
+    documentation (available in this repository as "[application_documents.zip]"(https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before they will be provided access to the response data, to ensure the confidentiality of student responses.
 
 -   It is possible, although unlikely, that responses may contain
     information about individual respondents. Individually identifiable
