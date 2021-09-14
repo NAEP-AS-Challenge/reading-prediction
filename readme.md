@@ -36,7 +36,7 @@ of human scorers who score millions of student responses to NAEP's
 assessments. Previous internal research on the application of automated
 scoring to NAEP items indicates that NAEP's items can be scored,
 successfully, with automated scoring using natural langage processing.
-As recently as 2017, in a limited trial of NAEP reading items, automated
+As recently as 2017, in a limited trial of NAEP reading items (JOHN can we verify that Emmanuel used Reading items? I'll try to confirm, today)  automated
 scoring performed as well as human raters in assigning scores, and
 assigning a confidence level associated with the predicted score. No
 evidence of biased student scoring based on demographic characteristics
@@ -118,11 +118,11 @@ and institutions, such as colleges and universities.
 
 -   All participants must confirm that they are able to meet NCES
     Confidential Data security requirements and complete the required
-    documentation (available [here](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before    they will be provided access to the response data, to ensure the confidentiality of student responses.
+    documentation (available [here](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before they will be provided access to the response data, to ensure the confidentiality of student responses.
 
 -   It is possible, although unlikely, that responses may contain
     information about individual respondents. Individually identifiable
-    information about students, their families, and their schools cannot
+    information about students, their families, and their schools. Patricipants must agree that this will not 
     be revealed.
 
 -   No person may:
@@ -144,8 +144,8 @@ and institutions, such as colleges and universities.
     imprisoned up to five years, and/or fined up to \$250,000.
 
 No future NAEP contract work is guaranteed on the basis of performance
-in this competition. Contracts are let on separate RFP where performance
-may be one of many criteria used for evaluation
+in this competition. Contracts are let on separate RFPs where performance
+may be one of many criteria that may be used for evaluation
 
 ## 
 
@@ -162,13 +162,12 @@ may be one of many criteria used for evaluation
 |2.7|Select winner|||16-Dec|
 
 \*Note: applications will be taken on a rolling basis and dataset access
-will be provided as soon as possible (typically 48 hours after receipt).
+will be provided as soon as possible (typically 48 hours after receipt of required documentation).
 
 ## Request for Information Webinar
 
-A webinar will held to describe the webinar and answer any questions
-that potential participants may have on 10/4/2021 @ 12:00 ET at [Click
-here to join the
+A webinar will held on 10/4/2021 @ 12:00 ET to describe the challenge and answer any questions
+that potential participants may have.  [Click here to join the
 meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmM1NGNhMDQtZmU2NC00OTZkLTg2YTAtNDMxMDNlN2U4ODgw%40thread.v2/0?context=%7b%22Tid%22%3a%22bd5d4514-84de-4928-a9fd-6ae10bbad677%22%2c%22Oid%22%3a%2298f85d73-1a71-4080-b629-7b4d0bb79c8c%22%7d)
 Questions may also be sent via Github "issues" or via email to
 <automated-scoring-challenge@ies.gov>.
@@ -202,8 +201,8 @@ increasing test security, enhancing cost effectiveness, reporting with a
 faster turn-around time, and archiving individual student performance
 with a view towards more comprehensively studying test results. The
 potential of automated scoring is consonant with these goals, as long as
-the procedure produces test scores with similar reliability and validity
-indices. The challenge will help NAEP explore whether moving in this
+the procedure produces test scores with reliability and validity
+indices that are comparable to current levels for the program. This challenge will help NAEP explore whether moving in this
 direction is appropriate at this time.
 
 ## The Challenge
@@ -345,7 +344,7 @@ to consider:
 
 -   Data sets will be provided in csv format
 
--   All essays have been deemed "scorable" by human raters
+-   All responses have been deemed "scorable" by human raters
 
 -   Teams must complete the required security documentation before
     datasets will be released (available at
@@ -391,7 +390,7 @@ contact specified on the application.
 
 The Department of Education is offering up to 10 prizes for a total
 potential award of up to \$30,000 (\$20,000 for item-specific models,
-\$10,000 for generic model). The first-place prize for the item-specific
+\$10,000 for a generic model). The first-place prize for the item-specific
 challenge is \$15,000, and the first-place prize for the generic model
 is \$5,000. Up to 4 runner-up prizes in each category may be awarded
 with cash prizes of of \$1,250 each.
@@ -611,7 +610,7 @@ process described in Appendix A.
 
 ## How To Enter
 
-1.  Entrants must submit an application to participate through completing the required security authorization forms to access NCES Confidential materials that are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  Completed applications should be sent via email to: 
+1.  Entrants must submit an application to participate by first completing the required security authorization forms to access NCES Confidential materials. These are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  JOHN - SOMETHING IS WRONG WHT THE FOLLOWING 2 LINES. THE EMAIL ADDRESS IS MISSING AND SOMETHING IS OUT OF ORDER. CAN YOU PLEASE FIX?  Completed applications should be sent via email to: 
     signed nondisclosure agreements as a Github pull request. The documents are available at: https://github.com/NAEP-AS-Challenge/info/ 
     and must be submitted to [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the 10/20/2021 @ 5PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
 
@@ -693,7 +692,7 @@ C)  The pricing sheet will be reviewed to ensure that it includes both
     the Item-specific model and for the Generic model.
 
     a.  Results shall be numerically ranked from most accurate to least
-        accurate, and the top responses chosen for prize awards and
+        accurate, and the top responses will be chosen for prize awards and
         public recognition.
 
 ## Quadratic weighted kappa
