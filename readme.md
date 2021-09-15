@@ -20,10 +20,7 @@ TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 **SUBMISSION START: 9/16/2021 8:00 AM ET\
 SUBMISSION END: 11/28/2021 5:00 PM ET**
 
-Request for Information Webinar: 10/4/2021 @ 12:00 ET at: [Click here to
-register for the
-meeting](https://www.eventbrite.com/e/naep-automated-scoring-challenge-rfi-webinar-tickets-172940257967)
-
+Request for Information Webinar: 10/4/2021 @ 12:00 ET (Email <automated-scoring-challenge@ies.gov> to register)
 ## Description
 
 Automated Scoring using natural language processing is a well-developed
@@ -164,8 +161,7 @@ will be provided as soon as possible (typically 48 hours after receipt of requir
 ## Request for Information Webinar
 
 A webinar will held on 10/4/2021 @ 12:00 ET to describe the challenge and answer any questions
-that potential participants may have.  [Click here to register for the
-webinar](https://www.eventbrite.com/e/naep-automated-scoring-challenge-rfi-webinar-tickets-172940257967)
+that potential participants may have.  Email <automated-scoring-challenge@ies.gov> to register for the webinar.
 Questions may also be sent via Github "issues" or via email to
 <automated-scoring-challenge@ies.gov>.
 
@@ -374,8 +370,7 @@ to consider:
 
 
 -   Teams must complete the required security documentation before
-    datasets will be released. (available at
-    [https://github.com/NAEP-AS-Challenge/info](mailto:•%09Data%20will%20be%20provided%20in%20three%20data%20sets:%20a%20training%20data%20set%20(used%20for%20model%20building),%20a%20cross-validation%20set%20(used%20for%20internal%20model%20evaluation%20and%20for%20posting%20on%20the%20leaderboard),%20and%20test%20data%20set%20(used%20for%20making%20score%20predications).%20%20The%20trainin))
+    datasets will be released. This documentation is avialable at: ["application_documents.zip"](application_documents.zip).
 
 ## Deliverables
 
