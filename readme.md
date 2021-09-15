@@ -92,10 +92,12 @@ as they have been absent from a good deal of recent research in
 automated scoring, particularly for solutions using artificial
 intelligence (e.g. neural networks, transformer networks) and other
 complex algorithmic approaches (Kumar & Boulanger, 2020). This
-documentation will be evaluated before respondents' scored submissions are evaluated and only
-documentation that meets acceptance criteria as specified below will be
+documentation will be evaluated before respondents' scored submissions are evaluated. Only
+documentation that meets acceptance criteria (as specified below) will be
 considered as valid submissions and evaluated for accuracy of the predicted
-scores compared to the hold-out test dataset. This process is consistent
+scores compared to the hold-out test dataset. 
+
+This process is consistent
 with the operational processes that the Department intends to use as
 part of the approval process for scoring and reporting; only models that
 can provide substantive validity evidence would be approved for
@@ -106,7 +108,7 @@ in educational contexts.
 
 ## Eligibility Information
 
-Institutions that have the ability and capacity to conduct research are
+Institutions and individuals that have the ability and capacity to conduct research are
 eligible to apply. Eligible applicants include, but are not limited to,
 non-profit and for-profit organizations and public and private agencies
 and institutions, such as colleges and universities.
@@ -114,8 +116,7 @@ and institutions, such as colleges and universities.
 ## Requirements for Participation & Confidential Data Security 
 
 -   All participants must confirm that they are able to meet NCES
-    Confidential Data security requirements and complete the required
-    documentation (available in this repository as ["application_documents.zip"](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) before they will be provided access to the response data, to ensure the confidentiality of student responses.
+    Confidential Data security requirements to access data and destroy it when the analysis is completed. These requirements are specified in the security application documentation (available in this repository as ["application_documents.zip"](https://github.com/NAEP-AS-Challenge/info/blob/b0585dd8a4e553b8a0b7fb038ac9d7232854432e/application_documents.zip) which must be completed before an applicant will be provided access to the response data, to ensure the confidentiality of student responses. Data must also be destroyed/deleted within 30 days of completing the Challenge and all participants must submit a signed and witnessed form confirming that action. This form is included within the security application.
 
 -   It is possible, although unlikely, that responses may contain
     information about individual respondents. Individually identifiable
@@ -294,10 +295,9 @@ interpretability per the criteria below before the response predictions
 will be evaluated.
 
 **Part 2: Model Accuracy**. Scoring performance will be evaluated
-on the average quadratic weighted kappa across all items in the
-competition. Competitors must score at least 99.5% of all scorable
-responses (for which there is a human rating), rounded to the third
-decimal place. During model construction, competitors will have access
+on the average quadratic weighted kappa (rounded to the third
+decimal place) across all items in the competition. Competitors must score at least 99.5% of all scorable
+responses (for which there is a human rating). During model construction, competitors will have access
 to online resources to request further information or to make
 suggestions about how to improve performance. See Appendix A for more
 information on quadratic weighted kappa and how the winner of the
@@ -376,7 +376,7 @@ Specifically, this platform will be used for the following purposes:
     "info" and available to the public.
 
 2)  Questions -- all questions about the Challenge, datasets, or items
-    should be posted as an "issue" and will be publicly available.
+    should be posted as an "issue" and will be publicly available. Responses will typically be made within 24 business hours.
 
 3)  Submissions -- to the Challenge should be submitted as a "pull
     request" under "https://github.com/NAEP-AS-Challenge/challenge_submissions" and will be private.
@@ -620,7 +620,7 @@ process described in Appendix A.
     technical report and predicted scores. Submissions must be submitted
     by 11/28/2021 at 5:00 ET.
     
-    JOHN - THIS??   4. Within 30 days of final submissions, ALL participants are required to submit the signed and witnessed form confirming their desctuction /deletion of all data that was provided for their use in this challenge.  This form is available, with instructions for submission, at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.
+4. Within 30 days of final submissions, ALL participants are required to submit the signed and witnessed form confirming their destruction / deletion of all data that was provided for their use in this challenge.  This form is available, with instructions for submission, at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.
 
 All entrants consent to the Official Rules,
 Terms, and Conditions upon submitting an entry. Once submitted, a
