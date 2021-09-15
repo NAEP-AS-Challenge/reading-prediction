@@ -74,7 +74,7 @@ scores (both single and double scored). The responses correspond to
 items that accompany two genres of 4^th^ and 8^th^ grade reading passages, literary and informational. Items for this challenge
 are of two writing formats, short and extended constructed response.
 
-The data set includes 19 items for the item-specific models, and 2 items
+The data set includes 20 items for the item-specific models, and 2 items
 for the generic models. There are an average of 1,181 double-scored
 responses per dataset, which are divided into a training dataset (50%),
 a validation dataset (10%), and a test dataset (40%). The validation
@@ -267,6 +267,36 @@ should be documented in the technical report.
 |2017\_DBA\_DR04\_1715RE4T08G04\_06|4|SCR|18.53|27533|329|694|139|26283|556|
 |2017\_DBA\_DR04\_1715RE4T08G04\_07|4|ECR|20.55|25960|667|641|128|24806|513|
 |2017\_DBA\_DR04\_1715RE4T08G04\_09|4|SCR|14.56|23720|597|583|117|22670|467|
+
+**Item-Specific Model Datasets**
+|Item ID|Gr. | For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
+| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
+|2017\_DBA\_DR08\_1715RE2T13\_05|8|SCR|28.11|21166|100|533|107|20207|426|
+|2017\_DBA\_DR08\_1715RE2T13\_07|8|ECR|47.14|19934|385|495|99|19043|396|
+|2017\_DBA\_DR08\_1715RE2T13\_08|8|SCR|28.28|19669|224|502|101|18989|402|
+|2017\_DBA\_DR08\_1715RE4T05G08\_03|8|SCR|34.59|21197|81|539|108|20307|432|
+|2017\_DBA\_DR08\_1715RE4T05G08\_06|8|ECR|51.29|21170|83|531|106|20214|425|
+|2017\_DBA\_DR08\_1715RE4T05G08\_07|8|SCR|28.80|21088|62|529|106|20135|424|
+|2017\_DBA\_DR08\_1715RE4T05G08\_09|8|ECR|34.87|20869|93|527|105|19920|422|
+|2017\_DBA\_DR08\_1715RE4T08G08\_03|8|SCR|44.20|21380|92|543|109|20403|434|
+|2017\_DBA\_DR08\_1715RE4T08G08\_06|8|SCR|32.82|21309|107|538|108|20340|431|
+|2017\_DBA\_DR08\_1715RE4T08G08\_07|8|ECR|44.74|20990|185|529|106|20038|423|
+|2017\_DBA\_DR08\_1715RE4T08G08\_09|8|SCR|32.95|20589|190|513|103|19665|411|
+|2017\_DBA\_DR04\_1715RE1T10\_05|4|SCR|18.52|27806|355|690|138|26564|552|
+|2017\_DBA\_DR04\_1715RE4T05G04\_03|4|SCR|18.63|28264|323|715|143|26977|572|
+|2017\_DBA\_DR04\_1715RE4T05G04\_06|4|ECR|24.63|27462|327|682|137|26234|546|
+|2017\_DBA\_DR04\_1715RE4T05G04\_07|4|SCR|14.55|26588|222|666|133|25389|533|
+|2017\_DBA\_DR04\_1715RE4T05G04\_09|4|ECR|16.67|25651|426|634|127|24509|508|
+|2017\_DBA\_DR04\_1715RE4T08G04\_03|4|SCR|23.90|28307|292|707|141|27034|566|
+|2017\_DBA\_DR04\_1715RE4T08G04\_06|4|SCR|18.53|27533|329|694|139|26283|556|
+|2017\_DBA\_DR04\_1715RE4T08G04\_07|4|ECR|20.55|25960|667|641|128|24806|513|
+|2017\_DBA\_DR04\_1715RE4T08G04\_09|4|SCR|14.56|23720|597|583|117|22670|467|
+
+**Generic Model Datasets**
+|Item ID|Gr. | For.|DS Test N|
+| :- | :- | :- | :- |
+|2017\_DBA\_DR08\_1715RE2T13\_06|8|SCR|420|
+|2017\_DBA\_DR04\_1715RE1T10\_07|4|ECR|539|
 
 Item ID = Item identifier;
 Gr. = Grade; 
