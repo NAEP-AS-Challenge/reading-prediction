@@ -34,12 +34,12 @@ the National Assessment of Educational Progress (NAEP) makes extensive
 use of constructed response items. Annually, contractors assemble teams
 of human scorers who score millions of student responses to NAEP's
 assessments. Previous internal research on the application of automated
-scoring to NAEP items indicates that NAEP's items can be scored,
-successfully, with automated scoring using natural langage processing. Prior special studies have found that automated
+scoring to NAEP items indicates that NAEP's items can be scored
+successfully with automated scoring, using natural langage processing. Prior special studies have found that automated
 scoring can perform as well as human raters in assigning scores, and
-assigning a confidence level associated with the predicted score. No
+assigning a confidence level associated with the predicted score. Compared to human raters, no
 evidence of biased student scoring based on demographic characteristics
-was observed compared to human raters.
+was observed.
 
 This challenge seeks to expand on this earlier work to ascertain whether
 a wider array of automated scoring models can perform well with a
@@ -69,10 +69,9 @@ responses to one or both of these components:
 Participants will be provided access to digital files that contain
 information related the results of human-scored constructed responses to
 reading assessment items that were administered in 2017, such as item
-text, passage, grading rubric, student responses, and human assigned
+text, passage, scoring rubric, student responses, and human assigned
 scores (both single and double scored). The responses correspond to
-items that accompany 4^th^ and 8^th^ grade prompts associated with two
-genres of passages, literary and informational. Items for this challenge
+items that accompany two genres of 4^th^ and 8^th^ grade reading passages, literary and informational. Items for this challenge
 are of two writing formats, short and extended constructed response.
 
 The data set includes 19 items for the item-specific models, and 2 items
@@ -85,7 +84,7 @@ item is provided under "Item Information" below.
 
 In addition to model accuracy compared to human scorers, successful
 respondents to this Challenge will provide documentation of model
-interpretability through a technical report that is evaluated for
+interpretability through a technical report that will be evaluated for
 transparency, explanability, and fairness as further explained in
 "Evaluation Criteria". The Federal Government is particularly interested
 in submissions that provide accurate results and meet these objectives,
@@ -93,9 +92,9 @@ as they have been absent from a good deal of recent research in
 automated scoring, particularly for solutions using artificial
 intelligence (e.g. neural networks, transformer networks) and other
 complex algorithmic approaches (Kumar & Boulanger, 2020). This
-documentation will be evaluated before submissions are scored and only
+documentation will be evaluated before respondents' scored submissions are evaluated and only
 documentation that meets acceptance criteria as specified below will be
-considered as valid submissions and scored for accuracy of the predicted
+considered as valid submissions and evaluated for accuracy of the predicted
 scores compared to the hold-out test dataset. This process is consistent
 with the operational processes that the Department intends to use as
 part of the approval process for scoring and reporting; only models that
@@ -143,7 +142,7 @@ and institutions, such as colleges and universities.
 
 No future NAEP contract work is guaranteed on the basis of performance
 in this competition. Contracts are let on separate RFPs where performance
-may be one of many criteria that may be used for evaluation
+may be one of many criteria that may be used for evaluation.
 
 ## 
 
@@ -179,7 +178,7 @@ principal federal statistical agencies, is the primary federal entity
 for collecting and analyzing data related to education in the United
 States and other nations. It provides statistical services for educators
 and education officials at the federal, State, and local levels;
-Congress; researchers; students; parents; and the media and the general
+Congress; researchers; students; parents; the media and the general
 public. NCES is located within the Institute of Education Sciences
 (IES), the research arm of the U.S. Department of Education.
 
@@ -187,7 +186,7 @@ The National Assessment of Educational Progress (NAEP) is a
 congressionally mandated project administered by NCES. NAEP is given to
 a representative sample of students across the country. Results are
 reported for groups of students with similar characteristics (e.g.,
-gender, race and ethnicity, school location), not individual students.
+gender, race and ethnicity, school location), and are not reported for individual students.
 National results are available for all subjects assessed by NAEP. State
 and selected urban district results are available for mathematics,
 reading, and (in some assessment years) science and writing.
@@ -196,8 +195,8 @@ In 2009 NAEP began its transition to computer-based administration with
 the hope of creating innovative performance assessments that more
 closely reflected ways students were working and learning in classrooms,
 increasing test security, enhancing cost effectiveness, reporting with a
-faster turn-around time, and archiving individual student performance
-with a view towards more comprehensively studying test results. The
+faster turn-around time, and collecting performance/process data
+with the goal of more comprehensively studying assessment results. The
 potential of automated scoring is consonant with these goals, as long as
 the procedure produces test scores with reliability and validity
 indices that are comparable to current levels for the program. This challenge will help NAEP explore whether moving in this
@@ -212,11 +211,11 @@ below.
 
 For **item-specific models**, the participant shall create a model that
 is fit to training data for each item, which will include the item text,
-passage, grading rubric, student responses, and human assigned scores
+passage, scoring rubric, student responses, and human assigned scores
 (both single and double scored). Respondents will use this information
 to create a predictive model of human scores that is applied to a set of
 "test" responses for which scores are not provided. The predicted scores
-will be submitted as part of the response.
+will be submitted as part of participants' responses.
 
 ## Component B: Generic Models
 
@@ -227,7 +226,7 @@ any or all items from Component A and may be supplemented with external
 training data, features, or models. Respondents will use this
 information to create a predictive model of human scores that is applied
 to a set of "test" responses for which scores are not provided. The
-predicted scores will be submitted as part of the response.
+predicted scores will be submitted as part of the participants' responses.
 
 If your scoring engine links to an external routine or program that maps
 semantic space or determines other linguistic features, you are
@@ -240,7 +239,7 @@ should be documented in the technical report.
 
 |**Component**|**Items Included** |
 | :- | :- |
-|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation and for posting on the leaderboard)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, grading rubric, and additional relevant information will be provided. </p>|
+|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation and for posting on the leaderboard)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, scoring rubric, and additional relevant information will be provided. </p>|
 |Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
 
 ## Detailed Item Information
@@ -327,7 +326,7 @@ technical reports should include estimates for minimal training sample
 sizes that would place the scoring engine's estimates within two percent
 of the final predicted values.
 
-|**Criteria**|**Responsive submissions will adequately:**|
+|**Criteria**|**Responsive submissions will adequately address:**|
 | :- | :- |
 |<p></p><p>1.	Transparency</p>|<p>- Explain the model building process</p><p>- Include descriptions of features used for model building </p><p>- Include description of algorithm used for model building</p>|
 |<p></p><p>2. Explainability</p>|<p>- Provide feature values and model statistics as appropriate to methods used </p><p>- Provide results from model training and cross validation</p><p>- Provide validity explanations that consider items and scoring rubrics</p>|
@@ -338,15 +337,15 @@ of the final predicted values.
 In conducting the work for the Challenge, there are several parameters
 to consider:
 
--   Both team and individual competitors are eligible to participate
+-   Both team and individual competitors are eligible to participate.
 
--   Data sets will be provided in csv format
+-   Data sets will be provided in csv format.
 
 -   All items in the training and test sets have been deemed “scorable” by human raters. There are responses in the validation set that were evaluated as “unscorable” and have no rating associated with them. They should be treated as missing data.
 
 
 -   Teams must complete the required security documentation before
-    datasets will be released (available at
+    datasets will be released. (available at
     [https://github.com/NAEP-AS-Challenge/info](mailto:•%09Data%20will%20be%20provided%20in%20three%20data%20sets:%20a%20training%20data%20set%20(used%20for%20model%20building),%20a%20cross-validation%20set%20(used%20for%20internal%20model%20evaluation%20and%20for%20posting%20on%20the%20leaderboard),%20and%20test%20data%20set%20(used%20for%20making%20score%20predications).%20%20The%20trainin))
 
 ## Deliverables
@@ -392,7 +391,7 @@ potential award of up to \$30,000 (\$20,000 for item-specific models,
 \$10,000 for a generic model). The first-place prize for the item-specific
 challenge is \$15,000, and the first-place prize for the generic model
 is \$5,000. Up to 4 runner-up prizes in each category may be awarded
-with cash prizes of of \$1,250 each.
+with cash prizes of \$1,250 each.
 
 The winning results of the competition will be published in a technical
 report summarizing the results of the competition. At the Department's
@@ -431,7 +430,7 @@ and covenants as follows:
 1.  The entrants are the sole authors, creators, and owners of the
     submission;
 
-2.  The entrant's submission;
+2.  The entrant's submission:
 
     a.  Is not the subject of any actual or threatened litigation or
         claim;
@@ -504,7 +503,7 @@ information contained therein.
 ## Notice to Challenge Entrants and Award Recipients
 
 Attempts to notify entrants and award recipients will be made using the
-email address associated with the entrants' submission. The Department
+email address associated with the entrants' submissions. The Department
 is not responsible for email or other communication problems of any
 kind.
 
@@ -620,6 +619,8 @@ process described in Appendix A.
     will be kept confidential. Submissions sould contain both the
     technical report and predicted scores. Submissions must be submitted
     by 11/28/2021 at 5:00 ET.
+    
+    JOHN - THIS??   4. Within 30 days of final submissions, ALL participants are required to submit the signed and witnessed form confirming their desctuction /deletion of all data that was provided for their use in this challenge.  This form is available, with instructions for submission, at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.
 
 All entrants consent to the Official Rules,
 Terms, and Conditions upon submitting an entry. Once submitted, a
@@ -677,7 +678,7 @@ C)  The pricing sheet will be reviewed to ensure that it includes both
 | :- | :- |
 |<p></p><p>1.	Transparency</p>|<p>- Explain the model building process</p><p>- Include descriptions of features used for model building </p><p>- Include description of algorithm used for model building</p>|
 |<p></p><p>2. Explainability</p>|<p>- Provide feature values and model statistics as appropriate to methods used </p><p>- Provide results from model training and cross validation</p><p>- Provide validity explanations that consider items and scoring rubrics</p>|
-|<p></p><p>3. Fairness </p>|- Conducts analysis to ensure that models perform the same for different sub-populations, especially those from historically underserved communities. |
+|<p></p><p>3. Fairness </p>|- Conduct analysis to ensure that models perform the same for different sub-populations, especially those from historically underserved communities. |
 
 
 2)  All items will be scored using quadratic weighted kappa, a metric
@@ -716,7 +717,7 @@ between the scores which are expected/known and the predicted scores.
 
 Further information about Quadratic Weighted Kappa is available at: <https://en.wikipedia.org/wiki/Cohen%27s_kappa>. 
 
-Items in the competition have ratings which can range from 0-2 to 0-4
+Items in the Challenge data sets have scores which can range from 0-2 to 0-4.
 Any assigned score outside the range of the item is considered an
 unscorable response (e.g., condition codes assigned by human raters), is
 treated as missing data, and no prediction should be made for that
