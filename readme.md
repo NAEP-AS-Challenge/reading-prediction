@@ -21,8 +21,8 @@ TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 SUBMISSION END: 11/28/2021 5:00 PM ET**
 
 Request for Information Webinar: 10/4/2021 @ 12:00 ET at: [Click here to
-join the
-meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmM1NGNhMDQtZmU2NC00OTZkLTg2YTAtNDMxMDNlN2U4ODgw%40thread.v2/0?context=%7b%22Tid%22%3a%22bd5d4514-84de-4928-a9fd-6ae10bbad677%22%2c%22Oid%22%3a%2298f85d73-1a71-4080-b629-7b4d0bb79c8c%22%7d)
+register for the
+meeting](https://www.eventbrite.com/e/naep-automated-scoring-challenge-rfi-webinar-tickets-172940257967)
 
 ## Description
 
@@ -164,8 +164,8 @@ will be provided as soon as possible (typically 48 hours after receipt of requir
 ## Request for Information Webinar
 
 A webinar will held on 10/4/2021 @ 12:00 ET to describe the challenge and answer any questions
-that potential participants may have.  [Click here to join the
-meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmM1NGNhMDQtZmU2NC00OTZkLTg2YTAtNDMxMDNlN2U4ODgw%40thread.v2/0?context=%7b%22Tid%22%3a%22bd5d4514-84de-4928-a9fd-6ae10bbad677%22%2c%22Oid%22%3a%2298f85d73-1a71-4080-b629-7b4d0bb79c8c%22%7d)
+that potential participants may have.  [Click here to register for the
+webinar](https://www.eventbrite.com/e/naep-automated-scoring-challenge-rfi-webinar-tickets-172940257967)
 Questions may also be sent via Github "issues" or via email to
 <automated-scoring-challenge@ies.gov>.
 
