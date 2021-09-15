@@ -206,7 +206,7 @@ below.
 ## Component A: Item-Specific Models
 
 For **item-specific models**, the participant shall create a model that
-is fit to training data for each item, which will include the item text,
+is fit to training data for each of twenty items, which will include the item text,
 passage, scoring rubric, student responses, and human assigned scores
 (both single and double scored). Respondents will use this information
 to create a predictive model of human scores that is applied to a set of
@@ -239,30 +239,6 @@ should be documented in the technical report.
 |Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
 
 ## Detailed Item Information
-|Item ID|Gr. | For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
-| :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
-|2017\_DBA\_DR08\_1715RE2T13\_05|8|SCR|28.11|21166|100|533|107|20207|426|
-|2017\_DBA\_DR08\_1715RE2T13\_06|8|SCR|45.89|20905|206|525|106|19960|420|
-|2017\_DBA\_DR08\_1715RE2T13\_07|8|ECR|47.14|19934|385|495|99|19043|396|
-|2017\_DBA\_DR08\_1715RE2T13\_08|8|SCR|28.28|19669|224|502|101|18989|402|
-|2017\_DBA\_DR08\_1715RE4T05G08\_03|8|SCR|34.59|21197|81|539|108|20307|432|
-|2017\_DBA\_DR08\_1715RE4T05G08\_06|8|ECR|51.29|21170|83|531|106|20214|425|
-|2017\_DBA\_DR08\_1715RE4T05G08\_07|8|SCR|28.80|21088|62|529|106|20135|424|
-|2017\_DBA\_DR08\_1715RE4T05G08\_09|8|ECR|34.87|20869|93|527|105|19920|422|
-|2017\_DBA\_DR08\_1715RE4T08G08\_03|8|SCR|44.20|21380|92|543|109|20403|434|
-|2017\_DBA\_DR08\_1715RE4T08G08\_06|8|SCR|32.82|21309|107|538|108|20340|431|
-|2017\_DBA\_DR08\_1715RE4T08G08\_07|8|ECR|44.74|20990|185|529|106|20038|423|
-|2017\_DBA\_DR08\_1715RE4T08G08\_09|8|SCR|32.95|20589|190|513|103|19665|411|
-|2017\_DBA\_DR04\_1715RE1T10\_05|4|SCR|18.52|27806|355|690|138|26564|552|
-|2017\_DBA\_DR04\_1715RE1T10\_07|4|ECR|27.91|26925|456|673|135|25713|539|
-|2017\_DBA\_DR04\_1715RE4T05G04\_03|4|SCR|18.63|28264|323|715|143|26977|572|
-|2017\_DBA\_DR04\_1715RE4T05G04\_06|4|ECR|24.63|27462|327|682|137|26234|546|
-|2017\_DBA\_DR04\_1715RE4T05G04\_07|4|SCR|14.55|26588|222|666|133|25389|533|
-|2017\_DBA\_DR04\_1715RE4T05G04\_09|4|ECR|16.67|25651|426|634|127|24509|508|
-|2017\_DBA\_DR04\_1715RE4T08G04\_03|4|SCR|23.90|28307|292|707|141|27034|566|
-|2017\_DBA\_DR04\_1715RE4T08G04\_06|4|SCR|18.53|27533|329|694|139|26283|556|
-|2017\_DBA\_DR04\_1715RE4T08G04\_07|4|ECR|20.55|25960|667|641|128|24806|513|
-|2017\_DBA\_DR04\_1715RE4T08G04\_09|4|SCR|14.56|23720|597|583|117|22670|467|
 
 **Item-Specific Model Datasets**
 |Item ID|Gr. | For.|Avg. No. Words|Total N|Miss.|DS Training N|DS Validation N|DS + SS Validation N|DS Test N|
