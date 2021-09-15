@@ -88,7 +88,7 @@ in submissions that provide accurate results and meet these objectives,
 as they have been absent from a good deal of recent research in
 automated scoring, particularly for solutions using artificial
 intelligence (e.g. neural networks, transformer networks) and other
-complex algorithmic approaches (Kumar & Boulanger, 2020). This
+complex algorithmic approaches (Kumar & Boulanger, 2020). Both this documentation and predicted scores will be submitted simultaneously. The documentation
 documentation will be evaluated before respondents' scored submissions are evaluated. Only
 documentation that meets acceptance criteria (as specified below) will be
 considered as valid submissions and evaluated for accuracy of the predicted
