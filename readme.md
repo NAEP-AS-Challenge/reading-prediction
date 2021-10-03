@@ -17,7 +17,7 @@ scoring system into operational use.
 TOTAL CASH PRIZES OFFERED: \$30,000 (maximum of $20,000 for first-place entries)\
 TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 
-**SUBMISSION START: 9/16/2021 8:00 AM ET\
+**SUBMISSION START: 10/5/2021 8:00 AM ET\
 SUBMISSION END: 11/28/2021 5:00 PM ET**
 
 Request for Information Webinar: 10/4/2021 @ 12:00 ET (Email <automated-scoring-challenge@ed.gov> to register)
@@ -235,7 +235,7 @@ should be documented in the technical report.
 
 |**Component**|**Items Included** |
 | :- | :- |
-|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation and for posting on the leaderboard)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, scoring rubric, and additional relevant information will be provided. </p>|
+|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, scoring rubric, and additional relevant information will be provided. </p>|
 |Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
 
 ## Detailed Item Information
