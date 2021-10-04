@@ -53,12 +53,11 @@ responses to one or both of these components:
 1)  Component A - Item-Specific Models: Successful respondents will
     build a predictive model for each item that can be scored, using
     current state-of-the-art practices in operational automated scoring
-    deployments. The first-place prize for this challenge is \$15,000,
+    deployments. Extensive training data from prior human scoring administrations will be provided.
+    The first-place prize for this challenge is \$15,000,
     with up to 4 runner-up prizes of \$1,250 each.
 
-2)  Component B - Generic Models: Successful respondents will use the
-    training data provided (and other relevant corpuses they have access
-    to) to create a generic scoring model that will score items that
+2)  Component B - Generic Models: Successful respondents will build a generic scoring model that will score items that
     were not included in the training dataset, but are from the same
     administration, subject, and grade level. The prize for this
     challenge is \$5,000, with up to 4 runner-up prizes of \$1,250 each.
@@ -205,10 +204,10 @@ below.
 
 ## Component A: Item-Specific Models
 
-For **item-specific models**, the participant shall create a model that
-is fit to training data for each of twenty items, which will include the item text,
+For **item-specific models**, the participant shall create a model for each of twenty items.  
+Respondents will be provided with training data from prior human scoring which will include the item text,
 passage, scoring rubric, student responses, and human assigned scores
-(both single and double scored). Respondents will use this information
+(both single and double scored). Respondents will use this information, and may supplement this information with external training data, features, or models 
 to create a predictive model of human scores that is applied to a set of
 "test" responses for which scores are not provided. The predicted scores
 will be submitted as part of participants' responses.
@@ -224,7 +223,7 @@ information to create a predictive model of human scores that is applied
 to a set of "test" responses for which scores are not provided. The
 predicted scores will be submitted as part of the participants' responses.
 
-If your scoring engine links to an external routine or program that maps
+For both components, if your scoring engine links to an external routine or program that maps
 semantic space or determines other linguistic features, you are
 permitted to use these aids to make your predictions. However, you are
 responsible for obtaining any licenses or permissions to do so. If your
