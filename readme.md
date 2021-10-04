@@ -235,7 +235,7 @@ should be documented in the technical report.
 
 |**Component**|**Items Included** |
 | :- | :- |
-|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation and for posting on the leaderboard)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, scoring rubric, and additional relevant information will be provided. </p>|
+|Component A: Item-Specific Models|<p>- training data set (used for model building)</p><p>- cross-validation set (used for internal model evaluation)</p><p>- test data set (used for making score predictions) </p><p></p><p>The training and cross-validation sets have responses scored by two raters. The cross-validation set may be supplemented with single scored responses. The test data set will have text only, no scores. In addition to response and score data, item text, passage, scoring rubric, and additional relevant information will be provided. </p>|
 |Component B: Generic Models|<p>- all items from Component A for different items (similar in genre and grade)</p><p>- test data set for new items (used for making score predictions) </p><p>- optional: additional training data, features or models</p>|
 
 ## Detailed Item Information
