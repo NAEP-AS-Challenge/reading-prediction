@@ -20,7 +20,8 @@ TYPE OF CHALLENGE: Automated Scoring of Open Ended Reading Test Items
 **SUBMISSION START: 9/16/2021 8:00 AM ET\
 SUBMISSION END: 11/28/2021 5:00 PM ET**
 
-Request for Information Webinar: 10/4/2021 @ 12:00 ET (Email <automated-scoring-challenge@ed.gov> to register)
+Request for Information Webinar was held 10/4/2021 @ 12:00 ET.  The [slides are posted here](https://github.com/NAEP-AS-Challenge/info/blob/c782c585636cdb32bf7373291e93c7f34256ebba/2021_10_4_IES_AS_Challenge_RFI_Presentation.pdf). 
+
 ## Description
 
 Automated Scoring using natural language processing is a well-developed
@@ -159,8 +160,8 @@ will be provided as soon as possible (typically 48 hours after receipt of requir
 
 ## Request for Information Webinar
 
-A webinar will held on 10/4/2021 @ 12:00 ET to describe the challenge and answer any questions
-that potential participants may have.  Email <automated-scoring-challenge@ed.gov> to register for the webinar.
+
+A Request for Information Webinar was held 10/4/2021 @ 12:00 ET.  The [slides are posted here](https://github.com/NAEP-AS-Challenge/info/blob/c782c585636cdb32bf7373291e93c7f34256ebba/2021_10_4_IES_AS_Challenge_RFI_Presentation.pdf). 
 Questions may also be sent via Github "issues" or via email to
 <automated-scoring-challenge@ed.gov>.
 
