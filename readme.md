@@ -355,7 +355,7 @@ Valid submissions will include reports with the following items:
 -   A technical report that provides model interpretability as
     previously described.
 
--   Predicted scores (CSV format) from the test data responses.
+-   Predicted scores (CSV format) from the test data responses (see below for data format).
 
 -   A pricing sheet that includes all costs related to the production
     implementation of automated scoring: model training, item scoring,
@@ -364,6 +364,18 @@ Valid submissions will include reports with the following items:
     While some costs (e.g. project management) may be variable, we
     expect fixed costs for well-known items such as model training, item
     scoring, system administration, and others.
+
+
+## Predicted Score Data Format and Upload Process
+
+To submit your predicted scores, please use the following format to modify the test dataset provided for each item. 
+1. Delete the column "ReadingTextResponse" that contains the student response text (for data security reasons).  Please do not submit any files that contain the text of student responses. 
+2. Add a column "predicted_score" and enter your predicted score in that column. 
+3. Add a column "participant" and put in the email address for the person who requested the dataset (you only need to enter in one row). 
+4. Save the file using the same original filename in .CSV format.
+5. Repeat for all items predicted and save into a single folder/directory. 
+6. Zip that folder/directory.  Add your technical report, pricing sheet (if appropriate), and submit as a "pull request" to the [Challenge Submissions](https://github.com/NAEP-AS-Challenge/challenge_submissions) repository.  (Note: if you are unfamiliar with how to create a pull request, instructions are available online)
+7. Your submission may be confirmed immediately depending on your Github settings, and will be confirmed manually by the automated-scoring-challenge@ed.gov team within 48 hours.  Entries must be submitted to Github by the Challenge deadline (11/28/2021 5:00 PM ET).
 
 ## Challenge Administration Platform 
 
