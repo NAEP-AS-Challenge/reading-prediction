@@ -149,7 +149,7 @@ may be one of many criteria that may be used for evaluation.
 | :-: | :- | :-: | :-: | :-: |
 |2.1|Challenge posting period|30|16-Sep|20-Oct|
 |2.2|Request for information webinar||4-Oct|4-Oct|
-|**2.3**|**Application deadline \***|||**20-Oct**|
+|**2.3**|**Application deadline \***|||~~**20-Oct**~~ 25 October @ 11:59 PM ET|
 |2.4|Provide dataset|| |28-Oct|
 |2.5|Competitors prepare responses\*|30|29-Oct|28-Nov|
 |**2.6**|**Response deadline**|||**28 Nov**|
@@ -621,7 +621,7 @@ process described in Appendix A.
 ## How To Enter
 
 1.  Entrants must submit an application to participate by first completing the required security authorization forms to access NCES Confidential materials. These are provided at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.  Completed applications should be sent via email to: 
-    [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the 10/20/2021 @ 5PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
+    [automated-scoring-challenge@ed.gov](mailto:automated-scoring-challenge@ed.gov) by the ~~**20-Oct**~~ 10/25/2021 @ 11:59 PM ET deadline. NOTE: Applications will be reviewed on a rolling basis starting 9/21/2021.
 
 2.  Once approved, participants will be provided with secure access to
     the dataset and materials for the challenge.
@@ -630,7 +630,7 @@ process described in Appendix A.
     https://github.com/NAEP-AS-Challenge/challenge_submissions/. All submissions
     will be kept confidential. Submissions sould contain both the
     technical report and predicted scores. Submissions must be submitted
-    by 11/28/2021 at 5:00 ET.
+    by 11/28/2021 at 11:59PM ET.
     
 4. Within 30 days of final submissions, ALL participants are required to submit the signed and witnessed form confirming their destruction / deletion of all data that was provided for their use in this challenge.  This form is available, with instructions for submission, at: https://github.com/NAEP-AS-Challenge/info/application-documents.zip.
 
