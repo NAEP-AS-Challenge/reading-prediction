@@ -149,7 +149,7 @@ may be one of many criteria that may be used for evaluation.
 | :-: | :- | :-: | :-: | :-: |
 |2.1|Challenge posting period|30|16-Sep|20-Oct|
 |2.2|Request for information webinar||4-Oct|4-Oct|
-|**2.3**|**Application deadline \***|||~~**20-Oct**~~ 25 October @ 11:59 PM ET|
+|**2.3**|**Application deadline \***|||~~**20-Oct**~~ 25-Oct @ 11:59 PM ET|
 |2.4|Provide dataset|| |28-Oct|
 |2.5|Competitors prepare responses\*|30|29-Oct|28-Nov|
 |**2.6**|**Response deadline**|||**28 Nov**|
@@ -375,7 +375,7 @@ To submit your predicted scores, please use the following format to modify the t
 4. Save the file using the same original filename in .CSV format.
 5. Repeat for all items predicted and save into a single folder/directory. 
 6. Zip that folder/directory.  Add your technical report, pricing sheet (if appropriate), and submit as a "pull request" to the [Challenge Submissions](https://github.com/NAEP-AS-Challenge/challenge_submissions) repository.  (Note: if you are unfamiliar with how to create a pull request, instructions are available online)
-7. Your submission may be confirmed immediately depending on your Github settings, and will be confirmed manually by the automated-scoring-challenge@ed.gov team within 48 hours.  **Entries must be submitted to Github by the Challenge deadline (11/28/2021 5:00 PM ET)**.
+7. Your submission may be confirmed immediately depending on your Github settings, and will be confirmed manually by the automated-scoring-challenge@ed.gov team within 48 hours.  **Entries must be submitted to Github by the Challenge deadline (11/28/2021 11:59 PM ET)**.
 
 ## Challenge Administration Platform 
 
