@@ -153,7 +153,7 @@ may be one of many criteria that may be used for evaluation.
 |2.4|Provide dataset|| |28-Oct|
 |2.5|Competitors prepare responses\*|30|29-Oct|28-Nov|
 |**2.6**|**Response deadline**|||**28 Nov**|
-|2.7|Select winner|||16-Dec|
+|2.7|Select winner|||Mid-January|
 
 \*Note: applications will be taken on a rolling basis and dataset access
 will be provided as soon as possible (typically 48 hours after receipt of required documentation).
@@ -374,8 +374,7 @@ To submit your predicted scores, please use the following format to modify the t
 3. Add a column "participant" and put in the email address for the person who requested the dataset (you only need to enter in one row). 
 4. Save the file using the same original filename in .CSV format.
 5. Repeat for all items predicted and save into a single folder/directory. 
-6. Zip that folder/directory.  Add your technical report, pricing sheet (if appropriate), and submit as a "pull request" to the [Challenge Submissions](https://github.com/NAEP-AS-Challenge/challenge_submissions) repository.  (Note: if you are unfamiliar with how to create a pull request, instructions are available online)
-7. Your submission may be confirmed immediately depending on your Github settings, and will be confirmed manually by the automated-scoring-challenge@ed.gov team within 48 hours.  **Entries must be submitted to Github by the Challenge deadline (11/28/2021 11:59 PM ET)**.
+6. Zip that folder/directory.  Add your technical report, pricing sheet (if appropriate), and upload to the transfer.ies.gov folder that you have been provided via email.  **Entries must be uploaded by the Challenge deadline (11/28/2021 11:59 PM ET)**.
 
 ## Challenge Administration Platform 
 
@@ -390,11 +389,7 @@ Specifically, this platform will be used for the following purposes:
 2)  Questions -- all questions about the Challenge, datasets, or items
     should be posted as an "issue" and will be publicly available. Responses will typically be made within 24 business hours.
 
-3)  Submissions -- to the Challenge should be submitted as a "pull
-    request" under "https://github.com/NAEP-AS-Challenge/challenge_submissions" and will be private.
-
-Please note that response data will be provided outside of Github to the
-contact specified on the application.
+Please note that response data will be provided outside of Github to the contact specified on the application.  Submissions will also be upload to a separate secure server.
 
 ## Prizes
 
@@ -626,8 +621,7 @@ process described in Appendix A.
 2.  Once approved, participants will be provided with secure access to
     the dataset and materials for the challenge.
 
-3.  Submissions must be submitted as a Github pull request to:
-    https://github.com/NAEP-AS-Challenge/challenge_submissions/. All submissions
+3.  Submissions must be uploaded to a secure server, with access provided via email to the lead applicant. All submissions
     will be kept confidential. Submissions sould contain both the
     technical report and predicted scores. Submissions must be submitted
     by 11/28/2021 at 11:59PM ET.
@@ -655,7 +649,7 @@ this notice.
 ## Timeline and Notification
 
 All submissions will be acknowledged as they are received. The winning
-proposal(s) will be notified via email by 12/16/2021 at 5:00 ET.
+proposal(s) will be notified via email in Mid-January 2022.
 
 ## Appendix A ## 
 
