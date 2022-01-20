@@ -1,13 +1,13 @@
 # Results from the NAEP Reading Automated Scoring Challenge
 Over two dozen teams participated in this Challenge.  Out of these submissions, there were seven awards made.  The winners were identified based on the accuracy of automated scores compared to human agreement and lack of bias observed in their predictions. All awarded entries also provided technical reports that met challenge requirements for transparency, explainability and fairness.
 
-**Grand Prizes**\
+**Grand Prizes**
 - Arianto Wibowo, Measurement Incorporated (Item-Specific Model)
 - Andrew Lan, UMass-Amherst (Item-Specific Model)
 - Susan Lottridge, Cambium Assessment (Item-Specific Model)
 - Torsten Zesch, University of Duisburg-Essen (Generic Model)
  
-**Runners-up**\
+**Runners-up**
 - Fabian Zehner, DIPF | Leibniz Institute for Research and Information in Education,
 Centre for Technology-Based Assessment (Item-Specific Model)
 - Scott Crossley, Georgia State University (Item-Specific Model)
