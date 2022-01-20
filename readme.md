@@ -1,6 +1,6 @@
 # ED.gov National Assessment of Educational Progress (NAEP) Automated Scoring Challenge
 
-### Winners announced! See challenge results [here](github.com/NAEP-AS-Challenge/info/blob/main/results.md).
+### Winners announced! See challenge results [here](http://github.com/NAEP-AS-Challenge/info/blob/main/results.md).
 
 We are seeking seeking submissions of automated scoring models to score
 constructed response items for the National Assessment of Educational
