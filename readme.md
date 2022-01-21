@@ -1,5 +1,8 @@
 # ED.gov National Assessment of Educational Progress (NAEP) Automated Scoring Challenge
 
+### Winners announced! Challenge results posted [here](https://github.com/NAEP-AS-Challenge/info/blob/952ee82cc52163b17bccc1f12174ce246b8dff9b/results.md)
+
+## Overview
 We are seeking seeking submissions of automated scoring models to score
 constructed response items for the National Assessment of Educational
 Progress's reading assessment. The purpose of the challenge is to help
